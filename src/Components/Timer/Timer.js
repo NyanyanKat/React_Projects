@@ -10,6 +10,7 @@ const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   const deadline = "December, 31, 2022";
+  const myTime = "1111";
 
   const getTime = (someTime) => {
     const time = Date.parse(someTime) - Date.now();
